@@ -1,0 +1,3 @@
+Go to Sql Plus
+
+1.- CONN /AS SYSDBA
