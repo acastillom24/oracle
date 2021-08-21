@@ -4,5 +4,7 @@ Go to Sql Plus
 
 
 2.- Crear un nuevo usuario.
-
 CREATE USER MAPFER IDENTIFIED BY PASSWORD;
+
+3.- Error: ORA-12505
+orcl
