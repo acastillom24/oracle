@@ -1,0 +1,14 @@
+-- RELACIONALES
+- =
+- !=
+- >
+- <
+- >=
+- <=
+
+-- ARITMËTICOS
+
+
+-- CONCATENACIÓN
+
+-- LÓGICOS
