@@ -26,12 +26,12 @@ DELETE FROM nombre_tabla WHERE nombre_campo = <condición>;
 -- BORRAR TODOS LOS REGISTROS DE UNA TABLA
 DELETE FROM nombre_tabla;
 
-
-
-
-
-
-
+-- CONFIGURACIÓN DE PRIMARY KEY
+CREATE TABLE usuario(
+  nombre varchar(20) not null,
+  clave varchar2(10) not null,
+  primary key(nombre)
+);
 
 
 
