@@ -25,3 +25,5 @@ ALTER SYSTEM REGISTER;
 EXIT
 
 lsnrctl status
+
+## Info: https://www.youtube.com/watch?v=vNJ7x_R7vN8
