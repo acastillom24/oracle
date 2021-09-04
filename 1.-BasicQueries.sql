@@ -20,6 +20,13 @@ INSERT INTO nombre_tabla VALUES(
   453.04
 );
 
+-- BORRAR FILAS DE UNA TABLA
+DELETE FROM nombre_tabla WHERE nombre_campo = <condición>;
+
+-- BORRAR TODOS LOS REGISTROS DE UNA TABLA
+DELETE FROM nombre_tabla;
+
+
 
 
 
