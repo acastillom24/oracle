@@ -32,3 +32,16 @@ select trim('       maria     ') from dual;
 
 -- Funcion replace
 select replace('wwww.oracle.com', 'w', 'p') from dual;
+
+-- Funcion substr
+select substr('wwww.oracle.com', 1, 10) from dual;
+select substr('wwww.oracle.com', -3) from dual;
+
+-- Funcion length
+select length('www.oracle.com') as ctd from dual;
+
+-- Funcion instr
+select instr('curso de oracle sql', 'cle') from dual;
+
+-- Funcion translate 
+select translate('maria medina gordillo', 'gro', '123') from dual;
