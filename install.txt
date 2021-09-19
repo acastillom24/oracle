@@ -1,0 +1,5 @@
+Step 1:
+
+login: https://www.oracle.com/pe/index.html
+click en Productos
+En el Menú Software, click en Oracle Database
