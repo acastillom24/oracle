@@ -1,3 +1,0 @@
-Asignar permisos y privilegios.
-
-GRANT DBA TO MAPFER;
