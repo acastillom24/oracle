@@ -1,10 +1,8 @@
-## Ingresamos con el usuario por default.
+-- Ingresamos con el usuario por default.
 sqlplus "/ as sysdba"
 
-## Opción 1:
+-- Opción 1:
+ALTER USER <nombre_usuario> IDENTIFIED BY <new_password>;
 
-ALTER USER <Nombre del usuario> IDENTIFIED BY <Nueva contraseña>;
-
-## Opción 2:
-
-PASSW <Nombre del usuario>;
+-- Opción 2:
+PASSW <nombre_usuario>;
