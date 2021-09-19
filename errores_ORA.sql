@@ -1,6 +1,6 @@
-# Ejecutar el cmd
+-- Ejecutar el cmd
 
-## Paso 1:
+-- Paso 1:
 
 sqlplus /nolog
 
@@ -12,7 +12,7 @@ EXIT
 
 lsnrctl status
 
-## Paso 2:
+-- Paso 2:
 
 sqlplus /nolog 
 
@@ -26,4 +26,4 @@ EXIT
 
 lsnrctl status
 
-## Info: https://www.youtube.com/watch?v=vNJ7x_R7vN8
+-- Info: https://www.youtube.com/watch?v=vNJ7x_R7vN8
