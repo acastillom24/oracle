@@ -7,6 +7,20 @@
 -- https://www.ajpdsoft.com/modules.php?name=News&file=print&sid=172
 -- https://www.tutorialesprogramacionya.com/oracleya/temarios/descripcion.php?cod=255&punto=1&inicio=
 
+
+-- Listar todos los campos de las tablas por esquema.
+SELECT TABLE_NAME
+    FROM ALL_TAB_COLUMNS
+        WHERE COLUMN_NAME = 'NUM_ORD_PAGO'
+            AND OWNER = 'TRON2000'
+        GROUP BY TABLE_NAME, COLUMN_NAME
+        ORDER BY TABLE_NAME;
+        
+        
+        
+        
+
+
 SELECT TABLE_NAME TABLA, COLUMN_NAME COLUMNA FROM USER_TAB_COLS
     WHERE DATA_TYPE IN ('VARCHAR2', 'NUMBER')
     ORDER BY TABLE_NAME;
